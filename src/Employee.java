@@ -68,7 +68,48 @@ public class Employee {
 	}
 
 	// TODO add getter and setter methods for all fields of the class
-		
+
+	public Date getBirth_date() {
+		return birth_date;
+	}
+
+	public void setBirth_date(Date birth_date) {
+		this.birth_date = birth_date;
+	}
+
+	public String getFirst_name() {
+		return first_name;
+	}
+
+	public void setFirst_name(String first_name) {
+		this.first_name = first_name;
+	}
+
+	public String getLast_name() {
+		return last_name;
+	}
+
+	public void setLast_name(String last_name) {
+		this.last_name = last_name;
+	}
+
+	public String getGender() {
+		return gender;
+	}
+
+	public void setGender(String gender) {
+		this.gender = gender;
+	}
+
+	public Date getHire_date() {
+		return hire_date;
+	}
+
+	public void setHire_date(Date hire_date) {
+		this.hire_date = hire_date;
+	}
+
+
 	// TODO expand this to string method to convert an instance of this class into a meaningful string
 	// so that it can be printed later
 	/**
