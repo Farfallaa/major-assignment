@@ -51,8 +51,8 @@ public class MajorAssignment {
 			System.out.println("2. Display records of all employees");
 			System.out.println("3. Search for an employee by last name");
 			System.out.println("4. Add a new employee");
-			System.out.println("5. To be created by student");				
-			System.out.println("6. To be created by student");
+			System.out.println("5. List all departments");				
+			System.out.println("6. Get salary info");
 			System.out.println("===========================================================");
 			System.out.print("option> ");
 
@@ -76,6 +76,7 @@ public class MajorAssignment {
 			// 1. displaying all employees
 			else if (option == 1) {
 				// Output the result of the getEmployeeCount method which is implemented after the main method
+			
 			}
 
 			// 2. displaying all employees 
